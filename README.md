@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Build a simple laravel development environment with docker-compose.
+1. Build a simple laravel development environment with docker-compose.
 
 ## Usage
 
