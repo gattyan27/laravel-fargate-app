@@ -60,7 +60,7 @@
       "secrets": [
         {
           "name": "APP_KEY",
-          "valueFrom": "/{{ must_env `SYSTEM_NAME` }}/{{ must_env `ENV_NAME` }}/{{ must_env `SERVICE_NAME` }}"
+          "valueFrom": "/{{ must_env `SYSTEM_NAME` }}/{{ must_env `ENV_NAME` }}/{{ must_env `SERVICE_NAME` }}/APP_KEY"
         }
       ],
       "volumesFrom": []
