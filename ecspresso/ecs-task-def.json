@@ -76,7 +76,7 @@
         },
         {
           "name": "DB_PASSWORD",
-          "valueFrom": "/{{ must_env `SYSTEM_NAME` }}/{{ must_env `ENV_NAME }}/{{ must_env `SERVICE_NAME` }}/DB_PASSWORD"
+          "valueFrom": "/{{ must_env `SYSTEM_NAME` }}/{{ must_env `ENV_NAME` }}/{{ must_env `SERVICE_NAME` }}/DB_PASSWORD"
         }
       ],
       "volumesFrom": []
